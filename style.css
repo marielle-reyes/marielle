@@ -1,0 +1,209 @@
+html, * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#e2e0f4;
+    color: rgb(112, 170, 137);
+    margin: 12;
+
+    background-image: url("planty.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    float: left;
+    width: 500px;
+    padding-right: 66px;
+    margin-top: 15px;
+}
+
+p {
+    font-weight: 666;
+    font-size: 26px;
+    color: #8a83cc;
+    line-height: 22px;
+}
+
+/* Header styling */
+.header {
+    text-align: center;
+
+    h1 {
+        margin: 0;
+        font-weight: bolder;
+        font-size: 4rem;
+        letter-spacing: 0.2em;
+        text-shadow: rgb(101, 94, 100) 4px 4px 0px;
+    }
+
+    margin-bottom: 10px;
+}
+
+main {
+    margin: 0px 100px 0px 100px;
+    height: 100%;
+    
+
+    .info {
+        padding-top: 250px;
+    }
+}
+
+/* Navbar styling */
+.nav {
+    text-align: center;
+    font-size: 20px;
+}
+
+.nav a {
+    padding: 0px 10px 0px 10px;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(101, 94, 100);
+    color:cadetblue;
+    font-weight: 777;
+}
+
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul li a {
+    padding: 0px 22px;
+    text-decoration-line: none;
+    color:cadetblue;
+    font-weight: 666;
+    font-size: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 500px){
+    nav ul li  {
+        display: block;
+        padding-bottom: 6px;
+    }
+
+}
+    
+
+/* Contact Page Styling */
+.capitalize-text {
+    text-transform: capitalize;
+}
+
+.contact-info-container {
+    width: 75%;
+    font-size: 35px;
+    line-height: 2em;
+    color:rgb(112, 170, 137);
+}
+
+.contacttitle {
+    text-align: center;
+    background-color: #e2e0f4;
+    color:rgb(112, 170, 137);
+    border-radius: 2em;
+    border-style: dotted;
+    border-color:rgb(101, 94, 100);
+}
+
+.contact-text-title {
+    font-size: 60px;
+    font-weight: 500;
+    color: #8a83cc;
+}
+
+.contact-text-title:hover{
+    text-decoration: underline;
+}
+
+/*projects page*/
+.photography-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    gap: 60px;
+    margin: 20px;
+}
+
+.photography {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(221, 221, 221);
+    border-radius: 30px;
+}
+
+.phototitle{
+    font-size: 33px;
+    color:#8a83cc;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-family:monospace;
+    text-shadow: rgb(43, 38, 42) 2px 2px 1px;
+}
+
+.photos {
+    width: 500px;
+    height: 500px;
+    padding: 0px;
+    margin: 10px 50px;
+}
+
+.productdesc {
+    color:rgb(37, 35, 47);
+    font-size:medium;
+    font-family: monospace;
+    font-weight: 1000;
+    
+    text-decoration:solid;
+    text-decoration-color: black;
+    text-decoration-line: underline;
+}
+
+/* About Page */
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.nyc {
+    width: 65vw;
+    padding: 5px 5px;
+    margin:auto;
+    display: block;
+}
+
+.grid-text{
+    line-height: 30px;
+    color:rgb(101, 94, 100);
+    background: linear-gradient(180deg, 
+        rgb(214, 178, 231) 0%, 
+        rgb(145, 202, 157) 50%,
+        rgb(142, 164, 202) 100%); 
+    border-radius: 1em;
+    border-style:double;
+    border-color:rgb(101, 94, 100);
+    padding: 10px;
+}
