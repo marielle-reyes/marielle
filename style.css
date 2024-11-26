@@ -185,7 +185,7 @@ li {
     display: grid;
     gap: 10px;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .nyc {
@@ -201,7 +201,7 @@ li {
     background: linear-gradient(180deg, 
         rgb(214, 178, 231) 0%, 
         rgb(145, 202, 157) 50%,
-        rgb(142, 164, 202) 100%); 
+        rgb(214, 178, 231) 100%); 
     border-radius: 1em;
     border-style:double;
     border-color:rgb(101, 94, 100);
